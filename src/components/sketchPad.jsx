@@ -61,9 +61,9 @@ const sketch = (p) => {
     typeSelect = p.createSelect();
     typeSelect.changed(resetAll);
 
-    typeSelect.option("series");
     typeSelect.option("square");
     typeSelect.option("sawtooth");
+    typeSelect.option("series");
 
     seriesLabel = p.createButton("Series Input");
     seriesInput = p.createInput("", "text");
