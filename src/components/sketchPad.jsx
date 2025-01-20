@@ -191,7 +191,7 @@ const sketch = (p) => {
     }
     p.endShape();
 
-    time -= .02 * speedSlider.value() / 100;
+    time -= .05 * speedSlider.value() / 200;
 
     if (vWave.length > 12500) vWave.pop();
     if (hWave.length > 21500) hWave.pop();
