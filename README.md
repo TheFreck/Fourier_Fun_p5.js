@@ -1,4 +1,4 @@
-# Fun with Fourier Series'
+# [Fun with Fourier Series'](https://thefreck.github.io/Fourier_Fun_p5.js/)
 
 A fourier series is a way of generating specific types of waves by stacking sine waves of various frequencies.
 
